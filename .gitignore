@@ -24,5 +24,4 @@ yarn-error.log*
 
 .vscode/
 npm-debug.log*
-/.changelog
 .npm/
