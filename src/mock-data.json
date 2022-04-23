@@ -1,0 +1,40 @@
+{
+    "tokens": [
+        {
+            "id": "1",
+            "name": "BNB",
+            "logo": "bnb.png",
+            "launchDate": "04.04.22",
+            "launchTime": "12pm EST",
+            "intro": "The InuYasha ecosystem will exist as a decentralized vetting and donation program for promising new tokens.",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam alias molestiae cupiditate corporis harum voluptatem exercitationem deleniti, distinctio accusantium fugit laudantium, molestias recusandae, suscipit sed. Error quaerat illo quia officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam alias molestiae cupiditate corporis harum voluptatem exercitationem deleniti, distinctio accusantium fugit laudantium, molestias recusandae, suscipit sed. Error quaerat illo quia officia."
+        },
+        {
+            "id": "2",
+            "name": "Terra Luna",
+            "logo": "terra-luna.png",
+            "launchDate": "04.04.22",
+            "launchTime": "12pm EST",
+            "intro": "The InuYasha ecosystem will exist as a decentralized vetting and donation program for promising new tokens.",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam alias molestiae cupiditate corporis harum voluptatem exercitationem deleniti, distinctio accusantium fugit laudantium, molestias recusandae, suscipit sed. Error quaerat illo quia officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam alias molestiae cupiditate corporis harum voluptatem exercitationem deleniti, distinctio accusantium fugit laudantium, molestias recusandae, suscipit sed. Error quaerat illo quia officia."
+        },
+        {
+            "id": "3",
+            "name": "Ethereum",
+            "logo": "ethereum.png",
+            "launchDate": "04.04.22",
+            "launchTime": "12pm EST",
+            "intro": "The InuYasha ecosystem will exist as a decentralized vetting and donation program for promising new tokens.",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam alias molestiae cupiditate corporis harum voluptatem exercitationem deleniti, distinctio accusantium fugit laudantium, molestias recusandae, suscipit sed. Error quaerat illo quia officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam alias molestiae cupiditate corporis harum voluptatem exercitationem deleniti, distinctio accusantium fugit laudantium, molestias recusandae, suscipit sed. Error quaerat illo quia officia."
+        },
+        {
+            "id": "4",
+            "name": "Solana",
+            "logo": "solana.png",
+            "launchDate": "04.04.22",
+            "launchTime": "12pm EST",
+            "intro": "The InuYasha ecosystem will exist as a decentralized vetting and donation program for promising new tokens.",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam alias molestiae cupiditate corporis harum voluptatem exercitationem deleniti, distinctio accusantium fugit laudantium, molestias recusandae, suscipit sed. Error quaerat illo quia officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam alias molestiae cupiditate corporis harum voluptatem exercitationem deleniti, distinctio accusantium fugit laudantium, molestias recusandae, suscipit sed. Error quaerat illo quia officia."
+        }
+    ]
+}

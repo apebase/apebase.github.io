@@ -1,0 +1,463 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul,
+nav {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input,
+label,
+select,
+button,
+textarea {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    background: none;
+    line-height: 1;
+
+    /* Browsers have different default form fonts */
+    font-size: 13px;
+    font-family: Arial;
+}
+
+/* Remove the stupid outer glow in Webkit */
+input:focus {
+    outline: 0;
+}
+
+/* Box Sizing Reset
+-----------------------------------------------*/
+
+/* All of our custom controls should be what we expect them to be */
+input,
+textarea {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* These elements are usually rendered a certain way by the browser */
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"],
+input[type="checkbox"],
+input[type="radio"],
+select {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #010101;
+    border: #1b1b1b;
+}
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #010101;
+    color: #808080;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ebebeb;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input:-webkit-autofill::first-line,
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 600000s 0s, color 600000s 0s;
+    -webkit-text-fill-color: #808080;
+}
+
+input[data-autocompleted] {
+    background-color: transparent;
+}
+
+.wrap {
+    display: flex;
+    width: 100%;
+    padding: 0 140px;
+}
+
+.wrap--no-cols {
+    padding: 0 160px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.grid-2 .col {
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.grid-3 .col {
+    width: 22%;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 400px) {
+    .grid {
+        display: block;
+    }
+}
+
+.app {
+    padding: 80px 0;
+}
+
+.app-header {
+    display: flex;
+}
+
+.app-logo {
+    display: flex;
+}
+
+.app-menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.app-menu a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-right: 40px;
+    color: #808080;
+    text-decoration: none;
+}
+
+.form input[type="text"] {
+    color: #808080;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.form--search {
+    position: relative;
+}
+
+.form--search input[type="text"] {
+    padding: 0 20px;
+    height: 40px;
+    width: 200px;
+    border: 1px solid #1b1b1b;
+    border-radius: 2px;
+}
+
+.form--search button[type="submit"] {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 48px;
+    border-top: 1px solid #1b1b1b;
+    border-right: 1px solid #1b1b1b;
+    border-bottom: 1px solid #1b1b1b;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.form--search button[type="submit"] svg {
+    font-size: 16px;
+}
+
+.form--search button[type="submit"] path {
+    color: #828282;
+}
+
+.section {
+    margin: 80px 0;
+}
+
+.token {
+    border: 1px solid #1b1b1b;
+    border-radius: 2px;
+}
+
+.token--single {
+    max-width: 620px;
+}
+
+.token--single,
+.token--single .token__img-wrap {
+    border: none;
+}
+
+.token--single .token__content {
+    padding: 0;
+}
+
+.token--single .token__img {
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.token--single .token__intro {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.token__img-link {
+    height: 100%;
+    max-height: 248px;
+}
+
+.token__img-wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #1b1b1b;
+}
+
+.token__img {
+    max-height: 248px;
+    padding: 24px;
+}
+
+.token__content {
+    padding: 24px;
+}
+
+.token__meta {
+    color: #29ac7e;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+}
+
+.token__links {
+    margin-top: 48px;
+    display: flex;
+}
+
+.token__link {
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    border: 1px solid #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+.token__heading-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.token__heading,
+.token__heading-icon {
+    display: flex;
+}
+
+.token__heading-link {
+    color: #ebebeb;
+    text-decoration: none;
+}
+
+.token__heading-icon {
+    position: relative;
+    left: 5px;
+}
+
+.token__heading-icon path {
+    color: #ebebeb;
+    margin-left: 4px;
+}
+
+.token__link path {
+    color: #828282;
+}
+
+.button {
+    border: 1px solid #1b1b1b;
+    border-radius: 2px;
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+}
+
+.button svg path {
+    color: #ebebeb;
+}
