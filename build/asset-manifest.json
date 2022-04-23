@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce6b5c42.css",
+    "main.js": "/static/js/main.c4814f4a.js",
+    "static/media/send.io.svg": "/static/media/send.io.0284b2a02fac911c20d628a2efef63c0.svg",
+    "index.html": "/index.html",
+    "main.ce6b5c42.css.map": "/static/css/main.ce6b5c42.css.map",
+    "main.c4814f4a.js.map": "/static/js/main.c4814f4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce6b5c42.css",
+    "static/js/main.c4814f4a.js"
+  ]
+}
